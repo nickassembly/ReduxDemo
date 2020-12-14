@@ -7,7 +7,7 @@ export const saveResult = ( res ) => {
      };
  }
  
- export const storeResult = (res) => {
+ export const storeResult = ( res ) => {
      return dispatch => {
          setTimeout(() => {
          dispatch(saveResult(res));
